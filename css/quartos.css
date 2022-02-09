@@ -1,0 +1,406 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+    background: rgb(45, 45, 61);
+}
+
+::-webkit-scrollbar-thumb{
+    background: white;
+    border-radius: 30px;
+}
+
+
+/*NAVBAR*/
+nav{
+    height: 110px;
+    background-color: rgb(45, 45, 61);
+}
+
+#navbar .navbar-nav{
+    flex-direction: row;
+    justify-content: end;
+    width: 100%;
+}
+
+nav a,
+.nav-link{
+    color: white;
+}
+
+nav a:hover,
+.nav-link:hover{
+    color: white;
+}
+
+
+.navbar-brand span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+}
+
+.navbar-brand{
+    font-size: 16px;
+    margin-left: 75px;
+}
+
+.navbar-nav{
+    font-size: 16px;
+}
+
+.navbar-nav li{
+    display: flex;
+    margin-right: 50px;
+    justify-content: space-between;
+}
+
+/*container*/
+
+.col-6{
+    margin-top: 230px;
+    margin-left: 250px;
+}
+
+.col-6 h1{
+    font-size: 35px;
+}
+
+.hr-do-title{
+    width: 500px;
+}
+
+.col-6 p{
+    margin-top: 60px;
+    width: 60%;
+    color: #6e6e6e;
+    font-size: 17px;
+    line-height: 2;
+    letter-spacing: 0px;
+}
+
+.hr-2{
+    margin-top: 30px;
+    width: 500px;
+}
+
+
+/*quartos */
+
+.room-1{
+    margin-top: 130px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.room-1 img{
+    width: 800px;
+    margin-right: 4px;
+    filter: brightness(50%);
+}
+
+.title{
+    margin-right: 550px;
+    margin-bottom: 100px;
+    color: white;
+    font-size: 26px;
+    position: absolute;
+    line-height: 1.3;
+    letter-spacing: 1px;
+}
+
+.title-1{
+    margin-right: 525px;
+    margin-bottom: 100px;
+    color: white;
+    font-size: 26px;
+    position: absolute;
+    line-height: 1.3;
+    letter-spacing: 1px;
+}
+
+.parag{
+    position: absolute;
+    width: 75%;
+    margin-right: 130px;
+    color: rgb(212, 207, 207);
+    margin-top: 100px;
+}
+
+.button{
+    position: absolute;
+    margin-right: 590px;
+    margin-top: 320px;
+    font-style: italic;
+    width: 140px;
+    height: 70px;
+    border: none;
+    background-color: rgb(212, 207, 207);
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.button a{
+    color: rgb(36, 34, 34);
+    text-decoration: none;
+}
+
+.button a:hover{
+    color: rgb(67, 59, 112);
+    transition: 1s;
+}
+
+/*suite de luxo */
+
+.room-2{
+    margin-top: 130px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.room-2 h3{
+    margin-left: 140px;
+}
+
+.room-2 p{
+    width: 60%;
+    margin-left: 250px;
+    text-align: justify;
+}
+
+.room-2 h3,
+.room-2 p{
+    margin-top: 20px;
+}
+
+.room-2 img{
+    width: 650px;
+}
+
+/*img-1*/
+
+.img-1{
+    width: 100%;
+    height: 700px;
+    margin-top: 40px;
+    filter: brightness(50%);
+    object-fit: cover;
+    display: flex;
+    background-image: url(/img/quarto-6.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.room-3{
+    position: relative;
+    top: -500px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.room-3 i{
+    margin-bottom: 30px;
+    font-size: 40px;
+    color: rgb(75, 48, 48);
+}
+
+.room-3 h4{
+    color: rgb(233, 181, 181);
+    font-size: 30px;
+}
+
+.room-3 p span{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.room-3 button{
+    width: 150px;
+    height: 70px;
+    background-color: rgb(156, 96, 96);
+    border: 1px solid rgb(156, 96, 96);
+}
+
+.room-3 button a{
+    color: white;
+    text-decoration: none;
+}
+
+/*serviços extras*/
+
+h2{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -130px;
+    font-size: 40px;
+    color: rgb(185, 173, 104);
+}
+
+.room-4{
+    position: relative;
+    top: -50px;
+}
+
+.room-4 h5{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: rgb(185, 173, 104);
+    font-weight: bold;
+}
+
+.room-4 p{
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    font-weight: 400;
+}
+
+.room-4 a{
+    margin-top: 1em;
+    margin-left: 5em;
+    background-color: #ad6d32;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.room-4 a:hover{
+    border: 1px solid #ad6d32;
+    background-color: white;
+    color: #ad6d32;
+    transition: .5s;
+}
+
+/*footer*/
+
+#footer{
+    background-color: rgb(22, 22, 31);
+    height: 100px;
+}
+
+.footer-item a{
+    color: white;
+    text-decoration: none;
+}
+
+.footer-item a:hover{
+    color: rgb(226, 221, 221);
+}
+
+#footer li{
+    display: inline-block;
+    color: white;
+    padding-left: 30px;
+    margin-left: 60px;
+    margin-top: 35px;
+    justify-content: space-between;
+}
+
+#footer .col-md-4{
+    color: white;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#footer i{
+    font-size: 30px;
+}
+
+.whats{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.whats span{
+    font-weight: bold;
+    margin-left: 8px;
+}
+
+/*newsletter*/
+
+#newsletter-container{
+    background-color: rgb(45, 45, 61);
+    text-align: center;
+    margin-top: 16px;
+    padding: 20px;
+    height: 200px;
+}
+
+#newsletter-container p{
+    color: white;
+}
+
+#news-form{
+    max-width: 400px;
+    margin: 15px auto;
+}
+
+#news-form i{
+    font-size: 1.5em;
+    color: white;
+    margin-right: 10px;
+}
+
+#news-form .btn{
+    color: white;
+    border: 1px solid white;
+}
+
+#news-form .btn:hover{
+    color: rgb(35, 35, 48);
+    border: 1px solid white;
+    background-color: white;
+    transition: 0.5s;
+}
+
+#social-container{
+    margin: 20px auto;
+}
+
+#social-container i{
+    font-size: 1.5em;
+    margin: 10px;
+    cursor: pointer;
+    transition: .3s;
+    color: rgb(212, 207, 207);
+}
+
+#social-container i:hover{
+    color: white;
+}
+
+/*copyright*/
+
+.copy{
+    background-color: rgb(22, 22, 31);
+    color: white;
+}
+
+.copy p{
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+}

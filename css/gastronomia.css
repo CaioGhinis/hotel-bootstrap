@@ -1,0 +1,337 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+    background: rgb(45, 45, 61);
+}
+
+::-webkit-scrollbar-thumb{
+    background: white;
+    border-radius: 30px;
+}
+
+
+/*NAVBAR*/
+nav{
+    height: 110px;
+    background-color: rgb(45, 45, 61);
+}
+
+#navbar .navbar-nav{
+    flex-direction: row;
+    justify-content: end;
+    width: 100%;
+}
+
+nav a,
+.nav-link{
+    color: white;
+}
+
+nav a:hover,
+.nav-link:hover{
+    color: white;
+}
+
+
+.navbar-brand span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+}
+
+.navbar-brand{
+    font-size: 16px;
+    margin-left: 75px;
+}
+
+.navbar-nav{
+    font-size: 16px;
+}
+
+.navbar-nav li{
+    display: flex;
+    margin-right: 50px;
+    justify-content: space-between;
+}
+
+/*main img*/
+
+.imagem{
+    margin-top: 50px;
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+    background-attachment: fixed;
+    display: flex;
+    filter: brightness(50%);
+    background-image: url(/img/restaurante-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#img-text{
+    position: relative;
+    top: -380px;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#img-text h3{
+    font-size: 50px;
+}
+
+#img-text p{
+    font-size: 16px;
+    font-style: inherit;
+}
+
+/*text container*/
+
+#text-container{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#text-container p{
+    margin-top: 50px;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(94, 86, 86);
+}
+
+/*main img*/
+
+.rest-container {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 600px;
+    margin-top: 100px;
+}
+
+.img-teste {
+    position: absolute;
+    background-image: url(/img/amarelinho.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 650px;
+    height: 550px;
+    right: 100px;
+    margin-top: 80px;
+}
+
+.img-teste-2 {
+    position: absolute;
+    background-image: url(/img/vermelhinho.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 650px;
+    height: 550px;
+    right: 100px;
+    margin-top: 80px;
+}
+
+.img-teste-3 {
+    position: absolute;
+    background-image: url(/img/bambu.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 650px;
+    height: 550px;
+    right: 100px;
+    margin-top: 80px;
+}
+
+.rest-text-1 {
+    position: absolute;
+    z-index: 1;
+    width: 40%;
+    color: black;
+    background-color: white;
+    padding: 50px;
+    bottom: 0px;
+    left: 60px;
+    -webkit-box-shadow: -12px 12px 1px 5px rgb(199, 199, 30); 
+    box-shadow: -12px 12px 1px 5px (199, 199, 30);
+}
+
+.rest-text-2 {
+    position: absolute;
+    z-index: 1;
+    width: 40%;
+    color: black;
+    background-color: white;
+    padding: 50px;
+    bottom: 0px;
+    left: 60px;
+    -webkit-box-shadow: -12px 12px 1px 5px rgb(202, 27, 27); 
+    box-shadow: -12px 12px 1px 5px rgb(202, 27, 27);
+}
+
+.rest-text-3 {
+    position: absolute;
+    z-index: 1;
+    width: 40%;
+    color: black;
+    background-color: white;
+    padding: 50px;
+    bottom: 0px;
+    left: 60px;
+    -webkit-box-shadow: -12px 12px 1px 5px rgb(70, 34, 34); 
+    box-shadow: -12px 12px 1px 5px rgb(70, 34, 34);
+}
+
+.rest-text-1 h5,
+.rest-text-2 h5,
+.rest-text-3 h5{
+    text-align: center;
+}
+
+.rest-text-1 p,
+.rest-text-2 p,
+.rest-text-3 p{
+    text-align: justify;
+    margin-top: 30px;
+}
+
+.rest-text-1 a,
+.rest-text-2 a,
+.rest-text-3 a{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: black;
+}
+
+
+
+/*footer*/
+
+#footer{
+    background-color: rgb(22, 22, 31);
+    height: 100px;
+    margin-top: 100px;
+}
+
+.footer-item a{
+    color: white;
+    text-decoration: none;
+}
+
+.footer-item a:hover{
+    color: rgb(226, 221, 221);
+}
+
+#footer li{
+    display: inline-block;
+    color: white;
+    padding-left: 30px;
+    margin-left: 60px;
+    margin-top: 35px;
+    justify-content: space-between;
+}
+
+#footer .col-md-4{
+    color: white;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#footer i{
+    font-size: 30px;
+}
+
+.whats{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.whats span{
+    font-weight: bold;
+    margin-left: 8px;
+}
+
+/*newsletter*/
+
+#newsletter-container{
+    background-color: rgb(45, 45, 61);
+    text-align: center;
+    margin-top: 16px;
+    padding: 20px;
+    height: 200px;
+}
+
+#newsletter-container p{
+    color: white;
+}
+
+#news-form{
+    max-width: 400px;
+    margin: 15px auto;
+}
+
+#news-form i{
+    font-size: 1.5em;
+    color: white;
+    margin-right: 10px;
+}
+
+#news-form .btn{
+    color: white;
+    border: 1px solid white;
+}
+
+#news-form .btn:hover{
+    color: rgb(35, 35, 48);
+    border: 1px solid white;
+    background-color: white;
+    transition: 0.5s;
+}
+
+#social-container{
+    margin: 20px auto;
+}
+
+#social-container i{
+    font-size: 1.5em;
+    margin: 10px;
+    cursor: pointer;
+    transition: .3s;
+    color: rgb(212, 207, 207);
+}
+
+#social-container i:hover{
+    color: white;
+}
+
+/*copyright*/
+
+.copy{
+    background-color: rgb(22, 22, 31);
+    color: white;
+}
+
+.copy p{
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+}
